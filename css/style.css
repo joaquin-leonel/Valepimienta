@@ -38,6 +38,10 @@ body, img, footer, a{
     padding-bottom: 2vh;
 }
 
+.btnpostres{
+    height: 6rem;
+}
+
 /* NAVBAR */
     @media (min-width: 330px){
     header{
@@ -1667,7 +1671,7 @@ width:35vw;
 
 .news-enviar {
     width: 50vh;
-    height: 50px;
+    /* height: 50px; */
     text-decoration: none;
     text-align: center;
     padding: 12px;
@@ -1898,7 +1902,7 @@ width:35vw;
     border-radius: 5px;
     border: none;
     width: 50vh;
-    height: 50px;
+    /* height: 50px; */
     text-decoration: none;
     text-align: center;
     padding: 12px;
@@ -2381,7 +2385,7 @@ width:35vw;
    .texto-news {
        text-align: center;
    
-       font-size: 2.4vh;
+       font-size: 2.1vh;
        font-family: "Open Sans", sans-serif;
    }
    
