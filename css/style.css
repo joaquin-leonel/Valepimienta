@@ -216,19 +216,95 @@ body, img, footer, a{
     
     .footer {
     background-color: #ffb8b3;
-    height: 100%;
-    width: 100%;
+    /* height: 100%;
+    width: 100%; */
     grid-area: footer;
     display: grid;
     bottom: 0;
     overflow: hidden;
+    /* height: calc(100% - 42px); */
     grid-template-columns: 1fr 1fr 3fr 1fr;
     grid-template-rows: 27vh 8vh;
     grid-template-areas: "footerUno footerDos footerTres footerCuatro"
                         "footerCinco footerCinco footerCinco footerCinco";
     
      }
-    
+
+
+/* .footerMargin{
+    margin-top:40%;
+} */
+
+     .CardGeneral {
+        width: 100%;
+        height: auto;
+        background-color: white;
+        background-repeat: no-repeat;
+        padding: 2rem;
+        font-size: 1em;
+        background-size: 100%;
+        margin-bottom: 3rem;
+      }
+
+      .imgGaleria {
+        width: 100%;
+        height: auto;
+        margin-top: 0.2rem;
+        opacity: 1;
+        -webkit-transition: all 1s ease-in;
+        transition: all 1s ease-in;
+      }
+      
+      .imgGaleria:hover {
+        border-radius:50%;
+        border-color: #FFA5A1;
+      }
+
+
+      .catalogoMargin{
+        height: auto;
+        /* margin-bottom: 2rem; */
+      }
+
+      .tituloDeProducto {
+        color:#535151;
+        margin-top: 1rem;
+        padding-top: 0.3rem;
+        font-size: 2rem;
+        text-align: center;
+      }
+
+      .contenedorPrecios {
+        margin-top: 1rem;
+        margin-bottom: -1rem;
+        text-align: center;
+      }
+      
+
+      .exPrecioDeProducto {
+        font-size: 1rem;
+        font-weight: lighter;
+        text-decoration: line-through;
+        display: inline-block;
+        padding-top: 2rem;
+        text-align: right;
+      }
+      
+      .precioDeProducto {
+        color:535151;
+        font-size: 2rem;
+        font-weight: bolder;
+        display: inline-block;
+        text-align: center;
+      }
+
+            
+        .prodSinInteres {
+            font-size: .8rem;
+            font-weight: lighter;
+            text-align: center;
+        }
+            
     .footer__footerUno {
         height: 100%;
         width: 100%;
@@ -1106,6 +1182,12 @@ body, img, footer, a{
       "header"
       "main"
       "footer"; }
+
+
+      .CardGeneral {
+        font-size: 1em;
+        padding: .5rem;
+      }
   
     .pageAyuda__main {    
       background-color: #fff;
